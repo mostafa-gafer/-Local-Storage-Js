@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/Presentation.css">
+    <title>task</title>
+</head>
+
+<body>
+    <div id="container">
+        <form id="register-form">
+            <fieldset>
+                <legend>data</legend>
+                <table colmn="4">
+                    <tr>
+                        <td>
+                            <label>ID: </label>
+                        </td>
+                        <td>
+                            <input id="id" type="number" placeholder="Enter your ID" name="id">
+                        </td>
+                        <td>
+                            <label>Name: </label>
+                        </td>
+                        <td>
+                            <input id="name" type="text" placeholder="Enter your Full Name" name="name">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>Email: </label>
+                        </td>
+                        <td>
+                            <input id="email" type="email" placeholder="Enter your Email" name="email">
+                        </td>
+                        <td>
+                            <label>Telephone: </label>
+                        </td>
+                        <td>
+                            <input id="telephone" type="tel" placeholder="Enter your phone" name="telephone">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td><label>Age: </label></td>
+                        <td colspan="2">
+                            <input id="age" type="number" placeholder="Enter your Age" name="age">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="4" style="text-align: center;">
+                            <button id="addBtn" type="button">Add</button>
+                            <button id="resetBtn" type="button">Reset</button>
+                            <button id="displayBtn" type="button">Display</button>
+                        </td>
+                    </tr>
+                </table>
+            </fieldset>
+        </form>
+        <h1 id="info-message"></h1>
+        <table id="info-table" style="visibility: hidden;">
+        </table>
+    </div>
+
+    <!-- Your Script is here  -->
+    <script src="js/script.js"></script>
+</body>
+
+</html>
